@@ -18,12 +18,10 @@ cd ~
 git clone git@github.com:galaher0/42-QA-auto-test-task.git
 cd 42-QA-auto-test-task
 ```
-
 2. Запусти тест
 *без графического интерфейса*
 ```
 pytest 001_typing_speed_test.py -s --base-url https://klavogonki.ru/
-
 ```
 *с графическим интерфейсом*
 ```
