@@ -40,7 +40,7 @@ class QuickStartRacePage:
         n_typos_to_make = round(words_len * percentage / 100) or 1
         return random.sample(list(range(words_len)), n_typos_to_make)
 
-    def type_text(self, words: list[str], delay: int = 100, typos_percentage: int = 0) -> NoReturn:
+    def type_text(self, words: list[str], delay: int = 100, typos_percentage: int = 0) -> None:
         self.text_input_field.click()  # click waits until element is enabled
         sample = []
         if typos_percentage:

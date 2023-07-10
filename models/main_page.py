@@ -14,4 +14,3 @@ class MainPage:
     def quick_start(self) -> NoReturn:
         self.quick_start_link.click()
         self.page.wait_for_load_state()
-
